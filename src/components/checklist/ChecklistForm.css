@@ -1,0 +1,36 @@
+.checklist-form {
+    margin-bottom: 24px;
+    background-color: var(--surface);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checklist-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--divider);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .checklist-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pin-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+  
+  .pin-checkbox input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-color);
+  }

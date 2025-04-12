@@ -1,0 +1,40 @@
+.checklist-detail-page {
+    min-height: 100vh;
+    background-color: var(--background);
+  }
+  
+  .checklist-detail-content {
+    padding: 24px 0;
+  }
+  
+  .checklist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .checklist-header h1 {
+    color: var(--primary-dark);
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .delete-checklist-btn {
+    color: var(--error);
+    border-color: var(--error);
+  }
+  
+  .delete-checklist-btn:hover {
+    background-color: rgba(211, 47, 47, 0.1);
+  }
+  
+  .error-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .error-container p {
+    margin-bottom: 20px;
+    color: var(--error);
+  }

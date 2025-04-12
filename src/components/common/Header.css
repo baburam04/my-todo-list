@@ -1,0 +1,40 @@
+.app-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 16px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .username {
+    font-weight: 500;
+  }
+  
+  .btn-outline {
+    border-color: white;
+    color: white;
+  }
+  
+  .btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
